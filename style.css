@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  background-color: wheat;
+  border: 5px dashed black;
+
+}
+
+#container {
+  background-color: rgb(231, 223, 207);
+  padding-bottom: 15px;
+  border-bottom: 5px solid black;
+  border: 5px solid black;
+}
+
+#text {
+  width: 120px;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#btn {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(145, 70%, 67%);
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+}
+
+#btn:hover {
+  background-color: hsl(145, 35%, 40%);
+}
+
+#btn:active {
+  background-color: hsl(144, 15%, 26%);
+}
+
+#diceResult {
+  margin: 20px 0px;
+}
+
+#imgResult img {
+  width: 120px;
+}
